@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 566e20d6a12134b48b2e56b5587e7bf0, type: 3}
+  m_Name: Fast_LegCutter_Good
+  m_EditorClassIdentifier: 
+  enum_ballType: 0
+  enum_BallLength: 2
+  ballLength: {fileID: 11400000, guid: f850f9a161f7d3248bc3e598cda9a076, type: 2}
+  MinSpeed: 0
+  MaxSpeed: 0
+  MaxSpin: 0
+  MinSpin: 0

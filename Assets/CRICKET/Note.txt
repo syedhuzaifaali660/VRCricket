@@ -1,0 +1,4 @@
+- Stadium ground lenth around matched to realtime world. 
+
+- In side stadium assets pivot point adjusted centrol of Stadium only,
+   Bcoz future if any modification is required easy to adjustment. 

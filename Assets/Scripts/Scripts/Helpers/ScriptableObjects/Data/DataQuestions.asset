@@ -1,0 +1,482 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf340a222c145145b49cfd195c69f81, type: 3}
+  m_Name: DataQuestions
+  m_EditorClassIdentifier: 
+  dataDoc:
+    rounds:
+    - name: Round 0
+      rules:
+        hasCountDown: 0
+        countdownTime: 60
+        canDeductScore: 0
+        totalTeamTurns: 3
+      score: 20
+      deductScore: 0
+      totalRoundQuestions: 11
+      totalQuestionsPerTurn: 1
+      questionRandom: 0500000000000000080000000a000000090000000400000002000000030000000b000000060000000100000007000000
+      questionData:
+      - name: Question 0
+        question: Wasim Akram was born in which City?
+        answer1: Multan
+        answer2: Lahore
+        answer3: Karachi
+        answer4: Sheikhupura
+        correctAnswer: 2
+        IsTrueFalseQues: 0
+      - name: Question 1
+        question: 'There are three main types of diabetes. Type 1, Type 2, and which
+          one of the following? '
+        answer1: Gestational diabetes
+        answer2: Celiac disease
+        answer3: Congenital diabetes
+        answer4: Type 3 diabetes
+        correctAnswer: 1
+        IsTrueFalseQues: 0
+      - name: Question 2
+        question: 'Wasim Akram holds a record for highest score by a number 8 batsmen
+          in a test match which is:'
+        answer1: 212
+        answer2: 183
+        answer3: 257
+        answer4: 149
+        correctAnswer: 3
+        IsTrueFalseQues: 0
+      - name: Question 3
+        question: According to estimates from the International Diabetes Federation
+          (IDF), how many people worldwide are currently living with diabetes?
+        answer1: 74 Million
+        answer2: 135 Million
+        answer3: 387 Million
+        answer4: 592 Million
+        correctAnswer: 3
+        IsTrueFalseQues: 0
+      - name: Question 4
+        question: Wasim Akram have taken how many hatricks in international cricket?
+        answer1: 5
+        answer2: 2
+        answer3: 3
+        answer4: 4
+        correctAnswer: 4
+        IsTrueFalseQues: 0
+      - name: Question 5
+        question: Consumption of which of these foods or food groups is associated
+          with a lower risk of type 2 diabetes?
+        answer1: 'Red Meat '
+        answer2: 'Coffee '
+        answer3: White Rice
+        answer4: Sugar-Sweetend Beverages
+        correctAnswer: 2
+        IsTrueFalseQues: 0
+      - name: Question 6
+        question: Wasim Akram was diagnosed with Diabetes in which year?
+        answer1: 1999
+        answer2: 1997
+        answer3: 1995
+        answer4: 2000
+        correctAnswer: 2
+        IsTrueFalseQues: 0
+      - name: Question 7
+        question: Foods, such as beans, dark leafy greens, nuts, and berries, that
+          are slow to break down into glucose, are said to have a low ________.
+        answer1: Insulin Level
+        answer2: Peptide Index
+        answer3: Solubility
+        answer4: Glycemic Index
+        correctAnswer: 4
+        IsTrueFalseQues: 0
+      - name: Question 8
+        question: Wasim Akram has captained Pakistan in how many worldcups?
+        answer1: 2
+        answer2: 3
+        answer3: 1
+        answer4: 0
+        correctAnswer: 3
+        IsTrueFalseQues: 0
+      - name: Question 9
+        question: Diabetes is a major cause of ________?
+        answer1: Kidney Failure
+        answer2: Heart Attack
+        answer3: Stroke
+        answer4: All of the above
+        correctAnswer: 4
+        IsTrueFalseQues: 0
+      - name: Question 10
+        question: Symptoms of Diabetes include?
+        answer1: feeling very thirsty
+        answer2: needing to urinate more often than usual
+        answer3: blurred vision
+        answer4: All of the above
+        correctAnswer: 4
+        IsTrueFalseQues: 0
+      - name: Question 11
+        question: How many wickets Wasim Akram took in ODIs?
+        answer1: 502
+        answer2: 514
+        answer3: 521
+        answer4: 509
+        correctAnswer: 1
+        IsTrueFalseQues: 0
+    - name: Round 1
+      rules:
+        hasCountDown: 1
+        countdownTime: 60
+        canDeductScore: 0
+        totalTeamTurns: 1
+      score: 5
+      deductScore: 0
+      totalRoundQuestions: 23
+      totalQuestionsPerTurn: 6
+      questionRandom: 02000000130000000f0000000e0000001500000016000000080000000a00000006000000090000000b0000000300000004000000100000000500000001000000070000000d00000012000000110000001700000000000000140000000c000000
+      questionData:
+      - name: Question 0
+        question: Evidence suggests that seminal Zn has an important role in the
+          physiologic functions of the sperm and that its reduced levels result in
+          low seminal quality and subsequent chances of fertilization?
+        answer1: TRUE
+        answer2: FALSE
+        answer3: 
+        answer4: 
+        correctAnswer: 1
+        IsTrueFalseQues: 1
+      - name: Question 1
+        question: At the end of spermatogenesis, Zn is highly concentrated in the
+          _______ of mature spermatozoa?
+        answer1: MIDPIECE
+        answer2: HEAD
+        answer3: TAIL
+        answer4: All of the above
+        correctAnswer: 3
+        IsTrueFalseQues: 0
+      - name: Question 2
+        question: Some researchers have reported that high Zn concentration are correlated
+          with _________ sperm parameters, including sperm count, motility, and normal
+          morphology?
+        answer1: DECREASED
+        answer2: ENHANCED
+        answer3: MAINTAINED
+        answer4: NONE OF THE ABOVE
+        correctAnswer: 2
+        IsTrueFalseQues: 0
+      - name: Question 3
+        question: In Pakistan, zinc deficiency is particularly prevalent among?
+        answer1: Women & Children
+        answer2: Older Population
+        answer3: Teenagers
+        answer4: Mostly Males
+        correctAnswer: 1
+        IsTrueFalseQues: 0
+      - name: Question 4
+        question: While about half of the total body zinc is in the bones, the skin
+          alone contains nearly _____________% of total body zinc.
+        answer1: 2%
+        answer2: 4%
+        answer3: 6%
+        answer4: 8%
+        correctAnswer: 3
+        IsTrueFalseQues: 0
+      - name: Question 5
+        question: _______ has the highest rate of zinc absorption?
+        answer1: Jejunum
+        answer2: Duodenum
+        answer3: Jejunum & Duodenum
+        answer4: None of these options
+        correctAnswer: 1
+        IsTrueFalseQues: 0
+      - name: Question 6
+        question: Zinc is now a standard component in parenteral nutrition for infants
+          with low birth weight or chronic ________ dysfunction?
+        answer1: CIRCULATORY
+        answer2: GASTROINTESTINAL
+        answer3: RESPIRATORY
+        answer4: NERVOUS
+        correctAnswer: 2
+        IsTrueFalseQues: 0
+      - name: Question 7
+        question: Zinc, alone or as an adjuvant, has been found useful in many dermatological
+          infections owing to its modulating actions on ________ functions?
+        answer1: MACROPHAGE
+        answer2: NEUTROPHIL
+        answer3: MACROPHAGE & NEUTROPHIL
+        answer4: NONE OF THESE OPTIONS
+        correctAnswer: 3
+        IsTrueFalseQues: 0
+      - name: Question 8
+        question: The anti-inflammatory properties of zinc have been the reasons
+          for its use in acne, rosacea, eczemas, and ulcers and wounds of varied
+          etiology?
+        answer1: TRUE
+        answer2: FALSE
+        answer3: 
+        answer4: 
+        correctAnswer: 1
+        IsTrueFalseQues: 1
+      - name: Question 9
+        question: Zinc, with or without nicotinamide, is also another emerging alternate
+          acne treatment to reduce possible adverse effects of antibiotics?
+        answer1: TRUE
+        answer2: FALSE
+        answer3: 
+        answer4: 
+        correctAnswer: 1
+        IsTrueFalseQues: 1
+      - name: Question 10
+        question: Therapeutically, zinc can be used, _________ for a large number
+          of dermatological disorders.
+        answer1: TOPICALLY
+        answer2: SYSTEMICALLY
+        answer3: TOPICALLY AND SYSTEMICALLY
+        answer4: NONE OF THESE OPTIONS
+        correctAnswer: 3
+        IsTrueFalseQues: 0
+      - name: Question 11
+        question: _______ ZINC deficiency causes a decrease in innate and adaptive
+          immunity.
+        answer1: ACUTE
+        answer2: CHRONIC
+        answer3: 
+        answer4: 
+        correctAnswer: 1
+        IsTrueFalseQues: 1
+      - name: Question 12
+        question: During ________ ZINC deficiency, the production of pro-inflammatory
+          cytokines increases.
+        answer1: ACUTE
+        answer2: CHRONIC
+        answer3: 
+        answer4: 
+        correctAnswer: 2
+        IsTrueFalseQues: 1
+      - name: Question 13
+        question: Proteins generally have positive influence on zinc absorption,
+          because zinc absorption tends to increase with protein intake?
+        answer1: TRUE
+        answer2: FALSE
+        answer3: 
+        answer4: 
+        correctAnswer: 1
+        IsTrueFalseQues: 1
+      - name: Question 14
+        question: A causal relationship between zinc deficiency and diarrhea is indicated
+          by the beneficial effects of zinc supplements?
+        answer1: TRUE
+        answer2: FALSE
+        answer3: 
+        answer4: 
+        correctAnswer: 1
+        IsTrueFalseQues: 1
+      - name: Question 15
+        question: The immune systemis highly proliferative, and thus _______ susceptible
+          to Zn deficiency.
+        answer1: MILDLY
+        answer2: MODERATELY
+        answer3: NOT
+        answer4: PARTICULARLY
+        correctAnswer: 4
+        IsTrueFalseQues: 0
+      - name: Question 16
+        question: 100mg of zinc sulfate equivalent to _____mg elemental zinc.
+        answer1: 22.5
+        answer2: 35.5
+        answer3: 100
+        answer4: 15
+        correctAnswer: 1
+        IsTrueFalseQues: 0
+      - name: Question 17
+        question: 'Riboflavin is also known as:'
+        answer1: Vitamin B1
+        answer2: Vitamin B2
+        answer3: Vitamin B6
+        answer4: Vitamin B12
+        correctAnswer: 2
+        IsTrueFalseQues: 0
+      - name: Question 18
+        question: Clinical diagnosis of marginal Zn deficiency in humans remains
+          problematic?
+        answer1: TRUE
+        answer2: FALSE
+        answer3: 
+        answer4: 
+        correctAnswer: 1
+        IsTrueFalseQues: 1
+      - name: Question 19
+        question: The potential interaction between iron and zinc has been a cause
+          of concern?
+        answer1: TRUE
+        answer2: FALSE
+        answer3: 
+        answer4: 
+        correctAnswer: 1
+        IsTrueFalseQues: 1
+      - name: Question 20
+        question: 'Another name for pyridoxine hydrochloride is:'
+        answer1: Vitamin B1
+        answer2: Vitamin B2
+        answer3: Vitamin B6
+        answer4: Vitamin B12
+        correctAnswer: 3
+        IsTrueFalseQues: 0
+      - name: Question 21
+        question: Zinc has __________ contributions.
+        answer1: Antioxidant & anti-inflammatory
+        answer2: Antioxidant
+        answer3: Anti-inflammatory
+        answer4: Neither antioxidant, nor anti-inflammatory
+        correctAnswer: 1
+        IsTrueFalseQues: 0
+      - name: Question 22
+        question: Zn requires daily intake?
+        answer1: TRUE
+        answer2: FALSE
+        answer3: 
+        answer4: 
+        correctAnswer: 1
+        IsTrueFalseQues: 1
+      - name: Question 23
+        question: Zinc deficiency does not contribute to or results from chronic
+          inflammation?
+        answer1: TRUE
+        answer2: FALSE
+        answer3: 
+        answer4: 
+        correctAnswer: 2
+        IsTrueFalseQues: 1
+    - name: Round 2
+      rules:
+        hasCountDown: 1
+        countdownTime: 30
+        canDeductScore: 1
+        totalTeamTurns: 1
+      score: 10
+      deductScore: 5
+      totalRoundQuestions: 11
+      totalQuestionsPerTurn: 1
+      questionRandom: 0c0000000100000004000000000000000a0000000500000006000000070000000b00000008000000030000000900000002000000
+      questionData:
+      - name: Question 0
+        question: According to a World Health Organization report (WHO 2002), Zn
+          deficiency ranks ______ amongst the most important health risk factors
+          in developing countries.
+        answer1: FIFTH
+        answer2: SIXTH
+        answer3: SEVENTH
+        answer4: TENTH
+        correctAnswer: 1
+        IsTrueFalseQues: 0
+      - name: Question 1
+        question: For therapeutic purpose, _____ mg elemental zinc sulfate can be
+          administered orally or parenterally.
+        answer1: 10.5 MG
+        answer2: 15.5 MG
+        answer3: 22.5 MG
+        answer4: 25.5 MG
+        correctAnswer: 3
+        IsTrueFalseQues: 0
+      - name: Question 2
+        question: An estimated _____ of world population is suffering from zinc deficiency?
+        answer1: 33%
+        answer2: 25%
+        answer3: 10%
+        answer4: 5%
+        correctAnswer: 1
+        IsTrueFalseQues: 0
+      - name: Question 3
+        question: Zinc absorption is hampered by the presence Of?
+        answer1: Phytates
+        answer2: Calcium
+        answer3: Phosphates
+        answer4: Phytates, Calcium & Phosphates
+        correctAnswer: 4
+        IsTrueFalseQues: 0
+      - name: Question 4
+        question: According to published data, Zinc deficiency was first discovered
+          in?
+        answer1: 1921
+        answer2: 1961
+        answer3: 1981
+        answer4: 1941
+        correctAnswer: 2
+        IsTrueFalseQues: 0
+      - name: Question 5
+        question: Loss of zinc through gastrointestinal tract accounts for approximately
+          _______ of all zinc eliminated from the body.
+        answer1: Half
+        answer2: Quarter
+        answer3: 90%
+        answer4: None of these options
+        correctAnswer: 1
+        IsTrueFalseQues: 0
+      - name: Question 6
+        question: In healthy individuals, the bioavailability of zinc is determined
+          by?
+        answer1: Individual's zinc status
+        answer2: Total zinc content in diet
+        answer3: Availability of soluble zinc from dietary content
+        answer4: All the previous options
+        correctAnswer: 4
+        IsTrueFalseQues: 0
+      - name: Question 7
+        question: Alteration of seminal plasma ______ changes count, motility, viability,
+          pH and viscosity?
+        answer1: COPPER
+        answer2: IRON
+        answer3: MAGNESIUM
+        answer4: ZINC
+        correctAnswer: 4
+        IsTrueFalseQues: 0
+      - name: Question 8
+        question: Optimal concentrations of Zn in the seminal plasma have also been
+          related to an increase in
+        answer1: SPERM CONCENTRATION
+        answer2: SPERM MOTILITY
+        answer3: SPERM VIABILITY
+        answer4: ALL OF THE ABOVE
+        correctAnswer: 4
+        IsTrueFalseQues: 0
+      - name: Question 9
+        question: A number of studies have demonstrated a negative impact of therapeutic
+          supplemental _______ on zinc absorption during pregnancy and lactation.
+        answer1: Calcium
+        answer2: Magnesium
+        answer3: Iron
+        answer4: Vitamin D
+        correctAnswer: 3
+        IsTrueFalseQues: 0
+      - name: Question 10
+        question: There is some evidence that the efficiency of zinc absorption may
+          decrease with _______.
+        answer1: Weight
+        answer2: Height
+        answer3: Age
+        answer4: None of these options
+        correctAnswer: 3
+        IsTrueFalseQues: 0
+      - name: Question 11
+        question: Clinical signs of _______ zinc deficiency were identified in industrialized
+          countries notably in persons suffering from acrodermatitis enteropathica.
+        answer1: Mild
+        answer2: Moderate
+        answer3: Severe
+        answer4: All the previous options
+        correctAnswer: 3
+        IsTrueFalseQues: 0
+      - name: Question 12
+        question: ZINC deficiency affects cells involved in _____________ immunity.
+        answer1: INNATE IMMUNITY
+        answer2: ADAPTIVE IMMUNITY
+        answer3: INNATE AND ADAPTIVE IMMUNITY
+        answer4: NONE OF THESE OPTIONS
+        correctAnswer: 3
+        IsTrueFalseQues: 0
+    IsDollyScene: 0
+    IsDebug: 0

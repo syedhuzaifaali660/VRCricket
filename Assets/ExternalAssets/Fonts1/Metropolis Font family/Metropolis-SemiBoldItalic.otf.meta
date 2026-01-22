@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: d6aff90e7833e1841844de8cf3feedb2
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Metropolis
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d1182c3965932a241b73e7082425f270, type: 3}
+  - {fileID: 12800000, guid: b5c2576738f90634b832fc345260165e, type: 3}
+  - {fileID: 12800000, guid: 033698fd7fed5b441817631a011f5a58, type: 3}
+  - {fileID: 12800000, guid: 0040d30046505204697c5aa82939a127, type: 3}
+  - {fileID: 12800000, guid: 26316c5814e41f2418c9b7593531aa7b, type: 3}
+  - {fileID: 12800000, guid: 903783eccbd1c3346aaa519b3c6a96c0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
